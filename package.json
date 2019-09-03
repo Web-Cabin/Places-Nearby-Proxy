@@ -1,0 +1,25 @@
+{
+  "name": "Places-Nearby-Proxy",
+  "version": "1.0.0",
+  "description": "Places Nearby Proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Web-Cabin/Places-Nearby-Proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Web-Cabin/Places-Nearby-Proxy/issues"
+  },
+  "homepage": "https://github.com/Web-Cabin/Places-Nearby-Proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
