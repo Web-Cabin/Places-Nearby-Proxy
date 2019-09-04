@@ -2,10 +2,11 @@
   "name": "Places-Nearby-Proxy",
   "version": "1.0.0",
   "description": "Places Nearby Proxy",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "server": "nodemon server/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/index.js",
+    "react-dev": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
@@ -19,10 +20,23 @@
   },
   "homepage": "https://github.com/Web-Cabin/Places-Nearby-Proxy#readme",
   "dependencies": {
+    "@webpack-cli/init": "^0.2.2",
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "http-proxy-middleware": "^0.19.1",
+    "morgan": "^1.9.1",
     "nodemon": "^1.19.2",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "webpack-cli": "^3.3.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3"
   }
 }
