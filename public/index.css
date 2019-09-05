@@ -1,0 +1,16 @@
+.control-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #Reviews {
+    top: 1500px; 
+    position: absolute;
+    left: 10px; 
+  }
+
+
+  #Places {
+    top: 13000px;
+    position: absolute;
+  }
