@@ -3,14 +3,23 @@
     flex-direction: row;
   }
 
+  #booking {
+    top: 1250px;
+    position: absolute; 
+  }
+
+  #availability {
+    top: 1700px; 
+    position: absolute;
+  }
+
   #Reviews {
-    top: 1500px; 
+    top: 2150px; 
     position: absolute;
     left: 10px; 
   }
 
-
   #Places {
-    top: 13000px;
+    top: 13650px;
     position: absolute;
   }
